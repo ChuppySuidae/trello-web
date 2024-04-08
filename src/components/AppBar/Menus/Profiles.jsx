@@ -33,7 +33,7 @@ function Profiles() {
           <Avatar
             sx={{ width: 30, height: 30 }}
             alt="trangDev"
-            src='https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/433659183_1557915941716091_5722592036603620650_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHMQGRZ3y0xzhvFRSVKW08rlP_esRDMZSCU_96xEMxlIKwGF18fsTh5DJqrgU8DtQU6c6z_AiPLp0BD44iZ0usN&_nc_ohc=-jhbYY_USQgAX-oj1pR&_nc_ht=scontent.fhan5-9.fna&oh=00_AfDwehwzUpCjpuD-ZXgCNI3YzXdX7XedXQiJKDPeN6ekjQ&oe=661227F1'
+            src='https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-1/433659183_1557915941716091_5722592036603620650_n.jpg?stp=c0.11.320.320a_cp6_dst-jpg_p320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHMQGRZ3y0xzhvFRSVKW08rlP_esRDMZSCU_96xEMxlIKwGF18fsTh5DJqrgU8DtQU6c6z_AiPLp0BD44iZ0usN&_nc_ohc=_3JtbmTbOzsAb6wW3vB&_nc_ht=scontent.fhan5-9.fna&oh=00_AfATgHs9j_MoG62Vk8bo0qGgFoNGoqdoDUdMJkHVyvlvvQ&oe=6619B833'
           />
         </IconButton>
       </Tooltip>

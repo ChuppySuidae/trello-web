@@ -5,7 +5,6 @@ function App() {
     <>
       <Board />
       {/* React Router Dom /boards /boards{id} */}
-      {/* <WebSocketComponent/> */}
     </>
   )
 }
