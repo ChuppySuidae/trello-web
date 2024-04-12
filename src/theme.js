@@ -1,11 +1,17 @@
+import { LineWeight } from '@mui/icons-material'
 import { cyan, deepOrange, orange, teal } from '@mui/material/colors'
 import { experimental_extendTheme as extendTheme } from '@mui/material/styles'
+import { fontGrid } from '@mui/material/styles/cssUtils'
 // import { red } from '@mui/material/colors'
+const APP_BAR_HEIGHT = '58px'
+const APP_BOARD_HEIGHT = '60px'
+const APP_CONTENT_HEIGHT = `calc(100vh - ${APP_BAR_HEIGHT} - ${APP_BOARD_HEIGHT})`
 // Create a theme instance.
 const theme = extendTheme({
   trello: {
-    appBarHeight: '58px',
-    boardBarHeight: '60px'
+    appBarHeight: APP_BAR_HEIGHT,
+    boardBarHeight: APP_BOARD_HEIGHT,
+    boardContentHeight: APP_CONTENT_HEIGHT
   },
   colorSchemes: {
     // light: {
@@ -26,7 +32,7 @@ const theme = extendTheme({
       styleOverrides: {
         body: {
           '*::-webkit-scrollbar': {
-            with: '8px',
+            width: '8px',
             height: '8px'
           },
           '*::-webkit-scrollbar-thumb': {
@@ -56,6 +62,16 @@ const theme = extendTheme({
         root: {
           //color: theme.palette.primary.main,
           fontSize: '0.875rem'
+        }
+      }
+    },
+    MuiTypography: {
+      styleOverrides: {
+        root: {
+          //color: theme.palette.primary.main,
+          '&.MuiTypography-body1': {
+            fontSize: '0.875rem'
+          }
         }
       }
     },

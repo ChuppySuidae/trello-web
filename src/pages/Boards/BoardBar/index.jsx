@@ -83,7 +83,7 @@ function BoardBar() {
             color: 'white',
             borderColor: 'white',
             '&:hover': {
-              borderColor:'white'
+              borderColor: 'white'
             }
           }}
         >
@@ -92,12 +92,15 @@ function BoardBar() {
         <AvatarGroup
           max={3}
           sx={{
-            gap:'0px',
+            gap: '0px',
             '& .MuiAvatar-root': {
               width: 34,
               height: 34,
               fontSize: 16,
-              border: 'none'
+              border: 'none',
+              color: 'white',
+              cursor: 'pointer',
+              '&:first-of-type': { bgcolor: 'a4b0be' }
             }
           }}
         >
